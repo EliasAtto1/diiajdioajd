@@ -1011,7 +1011,7 @@ end
 	end
     end
 ---------------------
-elseif getgenv().Key == false then
-    game.Players.LocalPlayer:Kick("Wrong Key")
-    end
+elseif getgenv().Key == nil then
+game.Players.LocalPlayer:Kick("Wrong Key")
+end
 
