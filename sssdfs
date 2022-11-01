@@ -29,7 +29,7 @@ local abcdef =
 {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
-if getgenv().Key == "galition" or "fuppeto" or "beele" or "lizze" or "exharketraters" or "purgrotabile" or "geay" or "reachrigy" or "odeshing" or "zucki" or "catermich" or "aphalphawky" or "sementa" or "ovistshing" or "sassee" or "wak" or "gerrickle" or "meogongsterthq" or "kauna" or "sificatible" or "rumaidered" or "nidae" or "soch3revf" or "expowe" or "ijanks" or "colabouniver" or "fantabulous" or "ducinewyers" or "eyemdsd" or "lainsignom" or "refleep24232" then
+if getgenv().Key == "galition" and "fuppeto" and "beele" and "lizze" and "exharketraters" and "purgrotabile" and "geay" and "reachrigy" and "odeshing" and "zucki" and "catermich" and "aphalphawky" and "sementa" and "ovistshing" and "sassee" and "wak" and "gerrickle" and "meogongsterthq" and "kauna" and "sificatible" and "rumaidered" and "nidae" and "soch3revf" and "expowe" and "ijanks" and "colabouniver" and "fantabulous" and "ducinewyers" and "eyemdsd" and "lainsignom" and "refleep24232" then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/idk/main/idk"))()
 local Window = Library:Window("Allah Ware Reborn", "🟢 Active", Enum.KeyCode.RightShift)
 local Main = Window:Tab("Main")
